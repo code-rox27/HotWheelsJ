@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="dark">
+    <title>Expediente: Feliz día del Hot Wheels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="radar-bg"></div>
+
+<div class="splash" id="splash">
+  <div class="splash-card">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L1 21h22L12 2z" stroke="#e4392b" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 9v5" stroke="#e4392b" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="17" r="1" fill="#e4392b"/></svg>
+    <h2>Advertencia del sistema</h2>
+    <p>Sé que me dijiste que <b>no te gustan los regalos</b>.<br><br>Aun así, esto es justo lo que vas a recibir...<b>¡y sí, tu regalo viene en físico, no solo en virtual!</b><br><br>Bienvenido a mi nivel de terquedad.</p>
+    <button id="btnEntrar">Entrar de todos modos →</button>
+  </div>
+</div>
+
+<div class="luces"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+<div class="mini-tracker" id="miniTracker">🔍 Expediente: 0/5</div>
+
+<header class="hero" id="hero">
+  <div class="spotlight" id="spotlight"></div>
+  <div class="wrap">
+    <div id="boot">&nbsp;</div>
+    <div class="placa-wrap">
+      <svg viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 4 L90 18 L90 55 Q90 90 50 106 Q10 90 10 55 L10 18 Z" fill="#181d29" stroke="#d9ad4f" stroke-width="3"/>
+        <text x="50" y="52" font-family="Rajdhani" font-weight="700" font-size="15" fill="#d9ad4f" text-anchor="middle">HW</text>
+        <text x="50" y="72" font-family="Rajdhani" font-weight="600" font-size="8" fill="#8a90a3" text-anchor="middle">UNIDAD DEL CORAZÓN</text>
+      </svg>
+    </div>
+    <h1>Expediente abierto:<br>Feliz día del <span>Hot&nbsp;Wheels</span></h1>
+    <p>30 de setiembre. Se abre caso contra Javier — para mí, bebito — por robo agravado de corazón, con antecedentes en carritos a escala.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2 class="tit">Expediente del sospechoso</h2>
+    <p class="sub">Datos recabados por la responsable del caso.</p>
+    <div class="file">
+      <div><span class="campo">NOMBRE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="valor">Javier — alias "bebito"</span></div>
+      <div><span class="campo">CARGO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="valor">Policía en servicio</span></div>
+      <div><span class="campo">EDAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="valor">25 años</span></div>
+      <div><span class="campo">DELITO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="valor rojo">Robo con premeditación de un corazón</span></div>
+      <div><span class="campo">CÓMPLICES&nbsp;&nbsp;</span><span class="valor">Toda su colección de Hot Wheels</span></div>
+      <div><span class="campo">SENTENCIA&nbsp;&nbsp;</span><span class="valor">Cadena perpetua de cariño, sin derecho a fianza</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="board">
+  <div class="wrap">
+    <h2 class="tit">Pruebas del caso</h2>
+    <p class="sub">Cinco piezas de evidencia. Tócalas para revisarlas.</p>
+    <div class="pruebas" id="pruebas"></div>
+    <div class="progreso" id="progreso">Expediente revisado: 0/5</div>
+    <div class="candado" id="candado">🔒 Archivo secreto bloqueado — revisa las pruebas y gana la persecución para abrirlo</div>
+  </div>
+</section>
+
+<section id="seccionSecreta" style="display:none;">
+  <div class="wrap">
+    <div class="secreto" id="secreto">
+      <div class="secreto-box">
+        <h3>🔓 Archivo secreto desbloqueado</h3>
+        <div id="cartaSecreta"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="certificado">
+      <div class="encabezado">UNIDAD DEL CORAZÓN · DOCUMENTO OFICIAL</div>
+      <h3>Certificado de Amor Verificado</h3>
+      <div class="foto-cert"><img src="https://th.bing.com/th/id/OIP.UG3E452UIWwDiSPVjMIPYQHaHa?w=207&h=207&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"></div>
+      <p>Se otorga el presente documento a <b>Javier</b> por ser el único capaz de acelerar este corazón de 0 a 100 en menos de un segundo.</p>
+      <div class="sello2">HW</div>
+      <div class="num">N° DE REGISTRO: HW-2026-BEBITO</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="veredicto">
+      <div class="sello" id="sello">AMOR<br>VERIFICADO</div>
+      <h2 class="tit" style="text-align:center;">Veredicto final</h2>
+      <p style="text-align:center;">Por todos los cargos presentados, el tribunal declara al acusado <b>CULPABLE</b> de ser la persona más linda, bromista y especial del mundo.</p>
+    </div>
+    <div class="firma">
+      Atentamente,<br>
+      <b>La responsable de este caso</b>
+      <div class="grande">Feliz día del Hot Wheels, bebito ❤️</div>
+    </div>
+  </div>
+</section>
+
+<div class="confeti" id="confeti"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
